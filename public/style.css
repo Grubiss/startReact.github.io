@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,a,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21222A;
+    height: 91px;
+    padding: 0 4%;
+}
+
+.homepage {
+    color: #61DAFB;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22.2535px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    display: flex;
+    align-items: center;
+}
+
+.react-logo {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.extraTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DEEBF8;
+
+}
+
+.content {
+    background: #282D35;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 88vh;
+}
+
+
+.h1Title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodytext {
+    margin: 0;
+    padding-top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.reactjs {
+    position: absolute;
+    right: 0;
+}
+
+
+.bodytext > li{
+    margin-bottom: 20px;
+}
+
+.bodytext > li::marker {
+    color: #61DAFB;
+}
+.list-item{
+    margin: 0 5%;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+
+
+
